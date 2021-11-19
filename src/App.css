@@ -1,0 +1,60 @@
+
+
+img{
+  max-width: 100%;
+}
+.login-img{
+  height: 85vh;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .login-img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*  */
+.home-banner{
+  background: #002d8083 url(https://i.ibb.co/30g5WWR/motorcycles-short-hero-full.webp) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-menu-link{
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: all .3s;
+}
+.footer-menu-link:hover{
+  color: #da1414;
+}
+.dashboard-menu-list{
+  font-weight: 600;
+  color: #222;
+}
+.dashboard-menu-list:hover{
+  color: #910808;
+}
+.active-dashboard{
+  background: #1a0579;
+}
+.active-dashboard .dashboard-menu-list{
+  color: #f1f1f1;
+  font-weight: bold;
+}
+.active-dashboard .dashboard-icon{
+  color: #f1f1f1;
+}
+
+.order-status{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
